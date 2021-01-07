@@ -1,0 +1,42 @@
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+.home{
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    >div{
+        display: flex;
+        align-items: center;
+        height: 24px;
+    }
+}
+.adduser{
+    margin-top: 50px;
+    >div{
+        height: 28px;
+    }
+}
+.addmenu{
+    margin-top: 50px;
+}
+.authority{
+    margin-top: 50px;
+    >div{
+        display: flex;
+        select{
+            width: 100px;
+            height: 26px;
+        }
+        table{
+            margin-left: 200px;
+            width: 400px;
+            text-align: center;
+            line-height: 30px;
+            background-color: cyan;
+        }
+    }
+}
